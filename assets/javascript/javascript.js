@@ -5,8 +5,28 @@ $(document).ready(function () {
         Q2: ["question #2", ["option1","option2","option3"], 1],
     }; */
 
+    function timer () {
+        var currentTime = 30;
+        $("#timer").text("Time remaining: " + currentTime);
+
+        setInterval(function() {
+            currentTime--;
+            $("#timer").text("Time remaining: " + currentTime);
+        }, 1000);
+    }
+
     $("#startButton").on("click", function() {
-        $("#gameArea").html("test");
+
+        /* kill the header and show the game board. */
+        $("#gameArea").show();
+        $("#header").hide();
+
+        /* Start the timer */
+        timer();
+
+
+
+        console.log("test");
     });
 
 });
