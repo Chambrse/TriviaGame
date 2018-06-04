@@ -33,10 +33,10 @@
     <div class="row">
       <div class="col" id="header">
         <h3>Do you have Marvel knowledge super-powers? Click start to find out.</h3>
-        <button type="button" id="startButton" class="btn btn-primary">Start</button>
+        <button type="button" id="startButton" class="btn btn-danger">Start</button>
       </div>
     </div>
-    <div id="gameArea">
+    <div class="playArea" id="gameArea">
       <div class="row">
         <div class="col">
           <div class="gameStuff" id="timer"></div>
@@ -50,12 +50,21 @@
         </div>
       </div>
     </div>
-    <div id="answerArea">
+    <div class="playArea" id="answerArea">
       <div class="row">
         <div class="col">
           <div id="question"></div>
           <div id="correctOrIncorrect"></div>
           <div id="correctAnswer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="playArea" id="endArea">
+      <div class="row">
+        <div class="col">
+          <div id="correctNumber"></div>
+          <div id="incorrectNumber"></div>
+          <div id="restart"></div>
         </div>
       </div>
     </div>

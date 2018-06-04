@@ -24,19 +24,13 @@ h3 {
     width: 100%;
 }
 
-#gameArea {
-    margin: 30px;
+.playArea {
+    margin: 30px 0px;
     text-align: center;
     background-color: red;
     display: none;
-
 }
 
-#answerArea {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-}
 
 .btn {
     margin: 10px;
