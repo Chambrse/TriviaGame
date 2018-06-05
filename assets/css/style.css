@@ -7,7 +7,6 @@ body {
 }
 
 h3 {
-    font-size: 2.1vw;
     text-align: center;
     color: white;
     margin: 15px;
@@ -27,16 +26,21 @@ h3 {
 .playArea {
     margin: 30px 0px;
     text-align: center;
-    background-color: red;
+    background-color: #E23636;
     display: none;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
 }
-
 
 .btn {
     margin: 10px;
 }
 
-/* #startButton {
-    width: 20px;
+#correctOrIncorrect {
+    color: black;
 }
- */
+
+#restart {
+    margin: 15px;
+}
+
