@@ -127,7 +127,7 @@ $(document).ready(function () {
         /* wait 3 seconds, then go to the next question */
         setTimeout(function () {
             nextQuestion();
-        }, 10000);
+        }, 3000);
 
     };
 
