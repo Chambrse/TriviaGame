@@ -4,11 +4,12 @@ $(document).ready(function () {
     var correctNumber = 0;
     var incorrectNumber = 0;
 
-    /*  */
+    /* initialize more variables */
     var questionsAsked = [0];
     var qNumber = 0;
     var thisQuestion;
 
+    /* resets the game *without* reloading the page per the homework specifications */
     function restart() {
         correctNumber = 0;
         incorrectNumber = 0;
